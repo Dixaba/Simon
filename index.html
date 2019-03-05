@@ -35,6 +35,24 @@
             document.getElementById("s0").innerText = arr.length;
         }
 
+        function load() {
+            var request = new XMLHttpRequest();
+
+            request.onreadystatechange = function () {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        document.getElementById("inputt").value = request.responseText;
+                    } else {
+                        document.getElementById("inputt").value = 'An error occurred during your request: ' + request.status + ' ' + request.statusText;
+                    }
+                }
+            }
+
+            request.open('Get', 'txt.txt');
+
+            request.send();
+        }
+
     </script>
 </head>
 
@@ -43,6 +61,7 @@
         <textarea id="inputt" style="width: 100%; height: 400px;"></textarea>
     </div>
     <button onclick="parse()">Go!</button>
+    <button onclick="load()">Load data</button>
     <div>
         <textarea id="out1" style="width: 24%; height: 400px;"></textarea>
         <textarea id="out2" style="width: 24%; height: 400px;"></textarea>
