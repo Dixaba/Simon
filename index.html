@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simon!!!</title>
+    <script>
+        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": \d+, "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)"}/ig;
+
+        function parse() {
+            let input = document.getElementById("inputt").value;
+            let arr = input.split('\n');
+            let m;
+            let arrr = [[], [], [], [], []];
+            arr.forEach((str, index) => {
+                while ((m = regex.exec(str)) !== null) {
+                    if (m.index === regex.lastIndex) {
+                        regex.lastIndex++;
+                    }
+
+                    m.forEach((match, groupIndex) => {
+                        arrr[groupIndex].push(match);
+                    }
+                    );
+                }
+            });
+
+            let ress = [];
+            for (let i = 1; i <= 4; i++) {
+                ress[i] = Array.from(new Set(arrr[i]));
+                document.getElementById("s" + i).innerText = ress[i].length;
+                document.getElementById("out" + i).value = ress[i].join('\n');
+            }
+
+            document.getElementById("s0").innerText = arr.length;
+        }
+
+    </script>
+</head>
+
+<body>
+    <div>
+        <textarea id="inputt" style="width: 100%; height: 400px;"></textarea>
+    </div>
+    <button onclick="parse()">Go!</button>
+    <div>
+        <textarea id="out1" style="width: 24%; height: 400px;"></textarea>
+        <textarea id="out2" style="width: 24%; height: 400px;"></textarea>
+        <textarea id="out3" style="width: 24%; height: 400px;"></textarea>
+        <textarea id="out4" style="width: 24%; height: 400px;"></textarea>
+    </div>
+    <div>
+        <span id="s0"></span> !
+        <span id="s1"></span> !
+        <span id="s2"></span> !
+        <span id="s3"></span> !
+        <span id="s4"></span>
+    </div>
+</body>
+
+</html>
