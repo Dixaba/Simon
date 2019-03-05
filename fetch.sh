@@ -4,4 +4,5 @@ do
     curl -s https://us-central1-crash-callstack-recipient.cloudfunctions.net/keycounter >> txt.txt
     echo >> txt.txt
     echo $i
+    sleep 1
 done
