@@ -20,7 +20,7 @@
         const regex2 = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)", "simon-says": "(.*)"}/ig;
 
         function parse() {
-            let regex = old?regex1:regex2;
+            let regex = old ? regex1 : regex2;
             let input = document.getElementById("inputt").value;
             let num_groups = (new RegExp(regex.source + '|')).exec('').length;
             let arr = input.split('\n');
@@ -88,6 +88,7 @@
     <button onclick="{old = true; load('txt.txt');}">Load data</button>
     <button onclick="{old = true; load('txt2.txt');}">Load data 2</button>
     <button onclick="{old = false; load('txt3.txt');}">Load data 3</button>
+    <button onclick="{old = false; load('txt4.txt');}">Load data 4</button>
     <div>
         <textarea id="out1" style="width: 16%; height: 400px;" readonly></textarea>
         <textarea id="out2" style="width: 16%; height: 400px;" readonly></textarea>
