@@ -18,9 +18,15 @@
 
         function parse() {
             let input = document.getElementById("inputt").value;
+            let num_groups = (new RegExp(regex.source + '|')).exec('').length;
             let arr = input.split('\n');
             let m;
-            let arrr = [[], [], [], [], [], []];
+            let arrr = [];
+
+            for (let i = 0; i < num_groups; i++) {
+                arrr.push([]);
+            }
+
             arr.forEach((str, index) => {
                 while ((m = regex.exec(str)) !== null) {
                     if (m.index === regex.lastIndex) {
