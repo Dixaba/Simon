@@ -4,14 +4,23 @@
 <head>
     <meta charset="utf-8">
     <title>Simon!!!</title>
+    <style>
+        span {
+            font-weight: bold;
+        }
+
+        .nope {
+            display: none;
+        }
+    </style>
     <script>
-        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": \d+, "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)"}/ig;
+        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)"}/ig;
 
         function parse() {
             let input = document.getElementById("inputt").value;
             let arr = input.split('\n');
             let m;
-            let arrr = [[], [], [], [], []];
+            let arrr = [[], [], [], [], [], []];
             arr.forEach((str, index) => {
                 while ((m = regex.exec(str)) !== null) {
                     if (m.index === regex.lastIndex) {
@@ -26,13 +35,14 @@
             });
 
             let ress = [];
-            for (let i = 1; i <= 4; i++) {
+            for (let i = 1; i <= 5; i++) {
                 ress[i] = Array.from(new Set(arrr[i]));
                 document.getElementById("s" + i).innerText = ress[i].length;
                 document.getElementById("out" + i).value = ress[i].join('\n');
             }
 
             document.getElementById("s0").innerText = arr.length;
+            document.getElementById("stat").setAttribute('style', 'display: block');
         }
 
         function load() {
@@ -63,17 +73,16 @@
     <button onclick="parse()">Go!</button>
     <button onclick="load()">Load data</button>
     <div>
-        <textarea id="out1" style="width: 24%; height: 400px;" readonly></textarea>
-        <textarea id="out2" style="width: 24%; height: 400px;" readonly></textarea>
-        <textarea id="out3" style="width: 24%; height: 400px;" readonly></textarea>
-        <textarea id="out4" style="width: 24%; height: 400px;" readonly></textarea>
+        <textarea id="out1" style="width: 19%; height: 400px;" readonly></textarea>
+        <textarea id="out2" style="width: 19%; height: 400px;" readonly></textarea>
+        <textarea id="out3" style="width: 19%; height: 400px;" readonly></textarea>
+        <textarea id="out4" style="width: 19%; height: 400px;" readonly></textarea>
+        <textarea id="out5" style="width: 19%; height: 400px;" readonly></textarea>
     </div>
-    <div>
-        <span id="s0"></span> !
-        <span id="s1"></span> !
-        <span id="s2"></span> !
-        <span id="s3"></span> !
-        <span id="s4"></span>
+    <div id="stat" class="nope">
+        For <span id="s0"></span> results there are <span id="s1"></span> different key counts, <span id="s2"></span>
+        pictures of Simon, <span id="s3"></span> key decrements, <span id="s4"></span> Epic keys (??) and
+        <span id="s5"></span> Steam keys
     </div>
 </body>
 
