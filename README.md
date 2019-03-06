@@ -1,5 +1,7 @@
 # Simon
 
+# Satisfactory will be available for Early Access in Epic Games store 2019.03.19
+
 Satisfactory was eaten by Simon!
 
 Requires _bash_ (sorry) and any modern browser.
