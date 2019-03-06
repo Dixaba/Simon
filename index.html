@@ -14,7 +14,7 @@
         }
     </style>
     <script>
-        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)"(?:, "simon-says": "(.*)")?}/ig;
+        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), (?:"last_used_epickey": "([a-z0-9-]+)", )?"next-available-steam-key": "([a-z0-9- ]+)"(?:, "simon-says": "(.*)")?}/ig;
 
         function parse() {
             let input = document.getElementById("inputt").value;
@@ -70,7 +70,7 @@
         }
 
         var resps = [];
-        var datacount = 14;
+        var datacount = 15;
 
         function simontheworld() {
             document.getElementById("inputt").value = '';
