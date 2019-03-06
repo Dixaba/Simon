@@ -144,3 +144,10 @@
 {"keys_left": 519, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "all keys have been taken", "simon-says": "Like, BIIIG smile!"}
 {"keys_left": 519, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "all keys have been taken", "simon-says": "Like, BIIIG smile!"}
 {"keys_left": 518, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "the game should be satisfactory", "simon-says": "I know what you did, Jace!"}
+{"keys_left": 517, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "next-available-steam-key": "the game should be satisfactory", "simon-says": "You have been taking the keys away from me Jace, so I need to take you away from the Keys"}
+{"keys_left": 516, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "are you still looking here", "simon-says": "Are you a professional or not?"}
+{"keys_left": 515, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "next-available-steam-key": "out of steamkeys :(", "simon-says": "I eat the keys to survive"}
+{"keys_left": 514, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "next-available-steam-key": "out of steamkeys :(", "simon-says": "No, you don't"}
+{"keys_left": 514, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "next-available-steam-key": "out of steamkeys :(", "simon-says": "No, you don't"}
+{"keys_left": 513, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "out of steamkeys :(", "simon-says": "Like, BIIIG smile!"}
+{"keys_left": 512, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "next-available-steam-key": "hope you like your games", "simon-says": "End Jace!"}
