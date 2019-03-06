@@ -14,7 +14,7 @@
         }
     </style>
     <script>
-        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), (?:"last_used_epickey": "([a-z0-9-]+)", )?"next-available-steam-key": "([a-z0-9- ]+)"(?:, "simon-says": "(.*)")?}/ig;
+        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), (?:"last_used_epickey": "([a-z0-9-]+)", )?"next-available-steam-key": "(.*?)"(?:, "simon-says": "(.*?)")?}/ig;
 
         function parse() {
             let input = document.getElementById("inputt").value;
@@ -140,7 +140,7 @@
         pictures of Simon, <span id="s3"></span> key decrements, <span id="s4"></span> Epic keys (??) and
         <span id="s5"></span> Steam keys. Simon says <span id="s6"></span> different phrases.
     </div>
-    Looks like my data counts incorrectly because of Simon :-(
+    I fixed bug with incorrect Simon processing, yaay!
 </body>
 
 </html>
