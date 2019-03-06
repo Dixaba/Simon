@@ -70,10 +70,11 @@
         }
 
         var resps = [];
+        var datacount = 14;
 
         function simontheworld() {
             document.getElementById("inputt").value = '';
-            for (let i = 1; i <= 13; i++) {
+            for (let i = 1; i <= datacount; i++) {
                 document.getElementById("inputt").value += '\n';
                 document.getElementById("inputt").value += resps[i];
             }
@@ -81,8 +82,8 @@
 
         function simon() {
             let reqs = [];
-            var remaining = 13;
-            for (let i = 1; i <= 13; i++) {
+            var remaining = datacount;
+            for (let i = 1; i <= datacount; i++) {
                 reqs[i] = new XMLHttpRequest();
                 reqs[i].onreadystatechange = function () {
                     if (reqs[i].readyState === 4) {
@@ -122,6 +123,7 @@
     <button onclick="{load('txt11.txt');}">11</button>
     <button onclick="{load('txt12.txt');}">12</button>
     <button onclick="{load('txt13.txt');}">13</button>
+    <button onclick="{load('txt14.txt');}">14</button>
     <button onclick="{simon();}">Simon the world!</button>&lt;- Press this to load ALL Simon data
     <div>
         <textarea id="out1" style="width: 5%; height: 400px;" readonly></textarea>
