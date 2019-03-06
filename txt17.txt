@@ -118,3 +118,15 @@
 {"keys_left": 45, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "End Jace!"}
 {"keys_left": 44, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Sure thing, man!"}
 {"keys_left": 43, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "As you can see, if we turn things around we can meet the requirements at the end of the fiscal quarter"}
+{"keys_left": 42, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "I think I was around five years old when I started delaying games."}
+{"keys_left": 41, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Huh"}
+{"keys_left": 40, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "What the fuck man?!"}
+{"keys_left": 40, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "What the fuck man?!"}
+{"keys_left": 39, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Yeah"}
+{"keys_left": 38, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Huh"}
+{"keys_left": 37, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "No, you don't"}
+{"keys_left": 36, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Sure thing, man!"}
+{"keys_left": 35, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "What the fuck man?!"}
+{"keys_left": 35, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "What the fuck man?!"}
+{"keys_left": 34, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Yes"}
+{"keys_left": 33, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Are you a professional or not?"}
