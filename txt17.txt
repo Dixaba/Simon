@@ -166,3 +166,6 @@
 {"keys_left": 5, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "200"}
 {"keys_left": 4, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "What the fuck man?!"}
 {"keys_left": 3, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "I think I was around five years old when I started delaying games."}
+{"keys_left": 2, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "I eat the keys"}
+{"keys_left": 1, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "I think I was around five years old when I started delaying games."}
+{"keys_left": 1, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "I think I was around five years old when I started delaying games."}
