@@ -14,7 +14,7 @@
         }
     </style>
     <script>
-        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), (?:"last_used_epickey": "([a-z0-9-]+)", )?"next-available-steam-key": "(.*?)"(?:, "simon-says": "(.*?)")?}/ig;
+        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+)(?:, "last_used_epickey": "([a-z0-9-]+)")?(?:, "next-available-steam-key": "(.*?)")?(?:, "simon-says": "(.*?)")?}/ig;
 
         function parse() {
             let input = document.getElementById("inputt").value;
@@ -106,7 +106,7 @@
 </head>
 
 <body>
-    <h2 style="margin-bottom: 50px">Simon</h2>
+    <h1>Simon</h1>
     <div>
         <textarea id="inputt" style="width: 100%; height: 400px;"></textarea>
     </div>

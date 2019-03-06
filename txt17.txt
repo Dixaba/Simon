@@ -83,3 +83,30 @@
 {"keys_left": 74, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "out of steamkeys :(", "simon-says": "Could you smile a little bit?"}
 {"keys_left": 73, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "out of steamkeys :(", "simon-says": "Asshole"}
 {"keys_left": 72, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "I could tell you a UDP joke, but I don't care if you get it!", "simon-says": "..."}
+{"keys_left": 71, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "next-available-steam-key": "are you still looking here", "simon-says": "Yes"}
+{"keys_left": 70, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "next-available-steam-key": "out of steamkeys :(", "simon-says": "Yeah"}
+{"keys_left": 69, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "It's gonna make a lot of keys"}
+{"keys_left": 69, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "It's gonna make a lot of keys"}
+{"keys_left": 68, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "Yes"}
+{"keys_left": 67, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Can it be dispelled"}
+{"keys_left": 66, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Yes"}
+{"keys_left": 65, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "..."}
+{"keys_left": 64, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "I eat the keys"}
+{"keys_left": 64, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "I eat the keys"}
+{"keys_left": 63, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "I think I was around five years old when I started delaying games."}
+{"keys_left": 62, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Yeah"}
+{"keys_left": 61, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "No, you don't"}
+{"keys_left": 60, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Asshole"}
+{"keys_left": 59, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "I eat the keys to survive"}
+{"keys_left": 59, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "I eat the keys to survive"}
+{"keys_left": 58, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Yes"}
+{"keys_left": 57, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Yeah"}
+{"keys_left": 56, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "Asshole"}
+{"keys_left": 55, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "..."}
+{"keys_left": 54, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "Whats wrong, jace?"}
+{"keys_left": 54, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "Whats wrong, jace?"}
+{"keys_left": 53, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Asshole"}
+{"keys_left": 52, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "What about keys?"}
+{"keys_left": 51, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "What about keys?"}
+{"keys_left": 50, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "You have been taking the keys away from me Jace, so I need to take you away from the Keys"}
+{"keys_left": 50, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "You have been taking the keys away from me Jace, so I need to take you away from the Keys"}
