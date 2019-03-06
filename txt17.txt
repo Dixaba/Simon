@@ -117,3 +117,4 @@
 {"keys_left": 45, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "End Jace!"}
 {"keys_left": 45, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "End Jace!"}
 {"keys_left": 44, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Sure thing, man!"}
+{"keys_left": 43, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "As you can see, if we turn things around we can meet the requirements at the end of the fiscal quarter"}
