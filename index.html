@@ -14,13 +14,9 @@
         }
     </style>
     <script>
-        var old;
-
-        const regex1 = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)"}/ig;
-        const regex2 = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)", "simon-says": "(.*)"}/ig;
+        const regex = /{"keys_left": (\d+), "image": "([a-z0-9-]+)\.png", "keys_consumed_last_minute": (\d+), "last_used_epickey": "([a-z0-9-]+)", "next-available-steam-key": "([a-z0-9-]+)"(?:, "simon-says": "(.*)")?}/ig;
 
         function parse() {
-            let regex = old ? regex1 : regex2;
             let input = document.getElementById("inputt").value;
             let num_groups = (new RegExp(regex.source + '|')).exec('').length;
             let arr = input.split('\n');
@@ -73,6 +69,38 @@
             request.send();
         }
 
+        var resps = [];
+
+        function simontheworld() {
+            document.getElementById("inputt").value = '';
+            for (let i = 1; i <= 13; i++) {
+                document.getElementById("inputt").value += '\n';
+                document.getElementById("inputt").value += resps[i];
+            }
+        }
+
+        function simon() {
+            let reqs = [];
+            var remaining = 13;
+            for (let i = 1; i <= 13; i++) {
+                reqs[i] = new XMLHttpRequest();
+                reqs[i].onreadystatechange = function () {
+                    if (reqs[i].readyState === 4) {
+                        if (reqs[i].status === 200) {
+                            resps[i] = reqs[i].responseText;
+                        } else {
+                            resps[i] = 'An error occurred during your request: ' + reqs[i].status + ' ' + reqs[i].statusText;
+                        }
+                        remaining--;
+                        if (remaining === 0)
+                            simontheworld();
+                    }
+                }
+                reqs[i].open('Get', `txt${i}.txt`);
+                reqs[i].send();
+            }
+        }
+
     </script>
 </head>
 
@@ -81,19 +109,20 @@
         <textarea id="inputt" style="width: 100%; height: 400px;"></textarea>
     </div>
     <button onclick="parse()">Go!</button>
-    <button onclick="{old = true; load('txt.txt');}">Load data</button>
-    <button onclick="{old = true; load('txt2.txt');}">Load data 2</button>
-    <button onclick="{old = false; load('txt3.txt');}">Load data 3</button>
-    <button onclick="{old = false; load('txt4.txt');}">Load 4</button>
-    <button onclick="{old = false; load('txt5.txt');}">Load 5</button>
-    <button onclick="{old = false; load('txt6.txt');}">Load 6</button>
-    <button onclick="{old = false; load('txt7.txt');}">Load 7</button>
-    <button onclick="{old = false; load('txt8.txt');}">Load 8</button>
-    <button onclick="{old = false; load('txt9.txt');}">9</button>
-    <button onclick="{old = false; load('txt10.txt');}">10</button>
-    <button onclick="{old = false; load('txt11.txt');}">11</button>
-    <button onclick="{old = false; load('txt12.txt');}">*huge*12*</button>
-    <button onclick="{old = false; load('txt13.txt');}">Simon</button>
+    <button onclick="{load('txt1.txt');}">1</button>
+    <button onclick="{load('txt2.txt');}">2</button>
+    <button onclick="{load('txt3.txt');}">3</button>
+    <button onclick="{load('txt4.txt');}">4</button>
+    <button onclick="{load('txt5.txt');}">5</button>
+    <button onclick="{load('txt6.txt');}">6</button>
+    <button onclick="{load('txt7.txt');}">7</button>
+    <button onclick="{load('txt8.txt');}">8</button>
+    <button onclick="{load('txt9.txt');}">9</button>
+    <button onclick="{load('txt10.txt');}">10</button>
+    <button onclick="{load('txt11.txt');}">11</button>
+    <button onclick="{load('txt12.txt');}">12</button>
+    <button onclick="{load('txt13.txt');}">13</button>
+    <button onclick="{simon();}">Simon the world!</button>&lt;- Press this to load ALL Simon data
     <div>
         <textarea id="out1" style="width: 5%; height: 400px;" readonly></textarea>
         <textarea id="out2" style="width: 20%; height: 400px;" readonly></textarea>
