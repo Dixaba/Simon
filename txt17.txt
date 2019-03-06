@@ -110,3 +110,10 @@
 {"keys_left": 51, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "What about keys?"}
 {"keys_left": 50, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "You have been taking the keys away from me Jace, so I need to take you away from the Keys"}
 {"keys_left": 50, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "You have been taking the keys away from me Jace, so I need to take you away from the Keys"}
+{"keys_left": 49, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "Are you a professional or not?"}
+{"keys_left": 48, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Could you smile a little bit?"}
+{"keys_left": 47, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "You have been taking the keys away from me Jace, so I need to take you away from the Keys"}
+{"keys_left": 46, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "End Jace!"}
+{"keys_left": 45, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "End Jace!"}
+{"keys_left": 45, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "End Jace!"}
+{"keys_left": 44, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Sure thing, man!"}
