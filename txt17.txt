@@ -158,3 +158,11 @@
 {"keys_left": 11, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "I think I was around five years old when I started delaying games."}
 {"keys_left": 11, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "I think I was around five years old when I started delaying games."}
 {"keys_left": 10, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "Are you a professional or not?"}
+{"keys_left": 9, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "Yes"}
+{"keys_left": 8, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "The Keys Jace, I need them"}
+{"keys_left": 7, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 5, "simon-says": "No pause in between"}
+{"keys_left": 6, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Yeah"}
+{"keys_left": 6, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "Yeah"}
+{"keys_left": 5, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "200"}
+{"keys_left": 4, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 7, "simon-says": "What the fuck man?!"}
+{"keys_left": 3, "image": "b4aa5194-dcf0-4e35-9f12-932f942b3c57.png", "keys_consumed_last_minute": 6, "simon-says": "I think I was around five years old when I started delaying games."}
